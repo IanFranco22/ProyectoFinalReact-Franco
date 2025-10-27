@@ -1,0 +1,29 @@
+/* Basic, minimal CSS for layout and readability */
+:root{
+  --accent:#2b6cb0;
+  --muted:#666;
+  --bg:#f7fafc;
+  --card:#fff;
+}
+*{box-sizing:border-box}
+body{font-family:Inter, Roboto, Arial, sans-serif;margin:0;background:var(--bg);color:#111;}
+.container{max-width:1000px;margin:20px auto;padding:0 16px;}
+.app header, .app nav{background:var(--card);padding:12px 0;box-shadow:0 1px 0 rgba(0,0,0,0.05);}
+.navbar{display:flex;align-items:center;justify-content:space-between;max-width:1000px;margin:0 auto;padding:0 16px;}
+.nav-left{display:flex;gap:16px;align-items:center;}
+.brand{font-weight:700;color:var(--accent);}
+.nav-links a{margin-right:12px;text-decoration:none;color:var(--muted);}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;margin-top:16px;}
+.card{background:var(--card);padding:12px;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,0.04);}
+.item-img{height:150px;background:#eee;border-radius:6px;display:flex;align-items:center;justify-content:center;overflow:hidden;}
+.item-img img{max-width:100%;max-height:100%;}
+.item-title{font-weight:600;margin:8px 0;}
+.item-price{color:var(--accent);font-weight:700;}
+.btn{display:inline-block;padding:8px 12px;border-radius:6px;background:var(--accent);color:#fff;text-decoration:none;}
+.btn.secondary{background:#4a5568;}
+.counter{display:flex;gap:8px;align-items:center;margin-top:8px;}
+.cart-widget{display:flex;gap:8px;align-items:center;}
+.small-muted{color:var(--muted);font-size:0.9rem;}
+.empty{padding:24px;text-align:center;color:var(--muted);}
+.checkout-summary{background:var(--card);padding:12px;border-radius:8px;margin-top:12px;}
+.footer{padding:20px;text-align:center;color:var(--muted);font-size:0.9rem;margin-top:30px;}

@@ -1,0 +1,18 @@
+[
+  {
+    "nombre": "Auriculares Bluetooth",
+    "descripcion": "Auriculares inalámbricos con cancelación de ruido.",
+    "precio": 8999,
+    "categoria": "electronica",
+    "imagen": "",
+    "stock": 10
+  },
+  {
+    "nombre": "Remera deportiva",
+    "descripcion": "Remera cómoda de algodón.",
+    "precio": 2499,
+    "categoria": "indumentaria",
+    "imagen": "",
+    "stock": 25
+  }
+]
